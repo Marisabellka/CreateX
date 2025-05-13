@@ -1,0 +1,160 @@
+body {
+    background-color: #fedcd2;
+    font-family: Lato;
+}
+
+.header__container{
+
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    
+}
+.header-page__logo {
+}
+.header-page__lists {
+}
+.header-page__list {
+display: flex;
+list-style: none;
+gap: 40px;
+color:  #424551;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 160%; 
+}
+.header-page__item {
+}
+.header-page__register {
+  
+}
+
+.header-page__register img {
+  margin-left: 20px; /* толкает картинку вправо от кнопки */
+}
+
+.header-page__button {
+border-radius: 4px;
+background: linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%);
+color:  #FFF;
+text-align: center;
+font-weight: 700;
+line-height: 52px; 
+letter-spacing: 0.5px;
+padding: 0px 40px;
+margin-left: 36px;
+}
+
+.header-page__link {
+}
+
+
+.main-page {
+
+}
+
+.hero__container{
+
+}
+
+.hero-page {
+}
+
+.hero-page__players{
+    display: flex;
+    align-items: center;
+    
+}
+.hero-page__player {
+    margin-top: 155px;
+   
+}
+.hero-page_text {
+    margin-top: 155px;
+}
+.hero-page__title {
+    color:  #1E212C;
+font-size: 64px;
+font-weight: 900;
+line-height: 130%;
+letter-spacing: 1px;
+margin-top: 24px;
+}
+
+.hero__link{
+margin-top: 60px;
+display: flex;
+padding: 0px 40px;
+gap: 10px;
+}
+
+.hero-page__link {
+   text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 52px; /* 325% */
+letter-spacing: 0.5px;
+background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border-radius: 4px;
+border: 1px solid var(--btn-gradient, #FF3F3A);
+padding: 0px 40px;
+
+}
+.hero-page__link__explore {
+   color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 52px; 
+letter-spacing: 0.5px;
+border-radius: 4px;
+background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+padding: 0px 40px;
+text-decoration: none;
+}
+.hero-page__list {
+  list-style: disc; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;  
+  padding-left: 0; 
+  gap: 40px; 
+  margin-top: 276px;       
+}
+.hero-page__item { 
+  display: flex;
+  position: relative;
+  
+  
+
+}
+
+.hero-page__item:not(:first-child)::before{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 8px;
+height: 8px;
+background: red;
+border-radius: 50%;
+display: block;
+content: "";
+transform: translateY(-50%)
+}
+
+.main-page-item {
+
+}
+.hero-page-item__number {
+}
+.hero-page-item__text {
+}
