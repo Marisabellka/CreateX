@@ -260,13 +260,101 @@ margin: 0;
 margin-right: 16px;
 }
 .advantages_link {
-    display: inline-flex;
+color: var(--white, #FFF);
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: 44px; /* 314.286% */
+letter-spacing: 0.5px;
+display: inline-flex;
 padding: 0px 32px;
 flex-direction: column;
 align-items: center;
 gap: 10px;
 border-radius: 4px;
 background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
-padding: 32px;
-margin-top: 48px;
+text-decoration: none;
+}
+
+.feature-courses__text {
+color: var(--gray-900, #1E212C);
+font-size: 16px;
+font-weight: 700;
+line-height: 150%; 
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.feature-courses__title {
+color: var(--gray-900, #1E212C);
+font-size: 46px;
+font-weight: 900;
+line-height: 130%;
+}
+.feature-courses__link {
+   display: inline-flex;
+padding: 0px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid var(--btn-gradient, #FF3F3A);
+padding: 0px 40px;
+
+}
+.featured-courses__list {
+   display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.featured-courses__item {
+flex: 1 1 calc(50% - 20px); /* Две карточки на строку с отступом */
+box-sizing: border-box;
+background: #f9f9f9; /* Пример фона */
+padding: 20px;
+border-radius: 8px solid;
+}
+.featured-courses-item {
+}
+
+.featured-courses__faces{
+
+}
+
+.faature-courses-item__face {
+    width: 214px;
+height: 214px;
+flex-shrink: 0;
+margin-right: 25px;
+}
+
+.featured-cources_discription{
+
+}
+
+.feature-courses-item__text {
+color: crimson;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%; 
+}
+.feature-courses-item__title {
+color: var(--gray-900, #1E212C);
+font-size: 20px;
+font-weight: 700;
+line-height: 150%; 
+}
+.featured-courses-item__price {
+color: var(--danger, #FF4242);
+font-size: 18px;
+font-weight: 700;
+line-height: 150%; 
+}
+.feature-courses-item__by {
+color: var(--gray-700, #787A80);
+font-size: 18px;
+font-weight: 400;
+line-height: 150%; /* 27px */
 }
