@@ -730,6 +730,15 @@ body {
   line-height: 130%;
   margin-bottom: 60px;
 }
+
+.reviev {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.block {
+}
+
 .team__list {
   display: flex;
   gap: 30px;
@@ -779,11 +788,12 @@ body {
 .testimonials {
   background-color: #fff;
   padding: 64px 105px 64px 105px;
+  width: 83%;
 }
 
 .text__block {
   display: flex;
-  gap: 10px;
+  gap: 24px;
 }
 .brace-block {
 }
@@ -794,8 +804,9 @@ body {
 .review__text {
   color: var(--gray-800, #424551);
   font-size: 20px;
-  font-weight: 400;
-  line-height: 150%; /* 30px */
+  font-weight: 200px;
+  line-height: 150%;
+  text-align: left;
 }
 .name__block {
   display: flex;
@@ -832,4 +843,15 @@ body {
 }
 .blog__text {
   margin-top: 100px;
+}
+
+.shape__block {
+}
+.shape__logo {
+  width: 55px;
+  height: 55px;
+  background-color: #ff3f3a;
+  border-radius: 50%;
+}
+.shape {
 }
