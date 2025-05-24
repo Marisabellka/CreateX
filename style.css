@@ -1001,27 +1001,63 @@ body {
 .post__item__logo {
 }
 
-<!--ЗДЕСЬ ДОЛЖЕН БЫТЬ СЕКЦИЯ С ФОРМОЙ -- > .footer {
+.footer {
+  background: var(--gray-900, #1e212c);
+}
+.footer__container {
+}
+.footer__block {
+  display: flex;
+}
+.footer__social-block {
+  width: 33.3%;
+}
+.footer__menu {
+  width: 33.3%;
+  display: flex;
 }
 .footer_description {
 }
 .footer__logo {
 }
 .footer__text {
+  color: var(--white, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 50%;
 }
 .footer__list {
+  display: flex;
+  gap: 20px;
 }
 .footer__item {
 }
+.footer__social-link {
+}
 .roll_description {
+  width: 33.3%;
 }
 .roll__title {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .roll__list {
 }
 .roll__item {
 }
 .roll__text {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.contact-us {
+  width: 33.3%;
 }
 .roll__description {
 }
